@@ -1,0 +1,5 @@
+roll=int(input("Enter the roll no.:"))
+mark=float(input("Enter the marks:"))
+name=input("Enter  the name:")
+com=complex(input("enter com no.:"))
+print("name:",name,"mark:",mark,"roll:",roll,"complex no.:", com)

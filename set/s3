@@ -1,0 +1,6 @@
+s1=input("enter the string:")
+s2=input("enter the string:")
+se1=set(s1)
+se2=set(s2)
+in1=se1.intersection(se2)
+print(in1)
