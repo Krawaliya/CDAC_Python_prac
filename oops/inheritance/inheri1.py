@@ -11,7 +11,7 @@ class employee(person):
 		print(self.name, self.eid)
 class manager(employee):
 	def __init__(self):
-		super().__init__ #emp class init
+		super().__init__() #emp class init
 		self.team_size=int(input("enter the tm_size"))
 	#def display(self):
 	#	print(self.name, self.eid, self.team_size)
